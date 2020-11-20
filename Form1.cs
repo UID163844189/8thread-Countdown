@@ -85,8 +85,15 @@ namespace WindowsFormsApp1
 				int timeleft = Int32.Parse(time1.Text);
 				timeleft--;
 				time1.Text = timeleft.ToString();
-				if (timeleft <= mindingtime) time1.BackColor = Color.Red;
-				if (timeleft == 0) enable1.Checked = false;
+				if (timeleft == 0)
+				{
+					enable1.Checked = false;
+					time1.BackColor = Color.Red;
+				}
+				else if (timeleft <= mindingtime && timeleft > 0)
+				{
+					time1.BackColor = Color.Yellow;
+				}
 
 			}
 			if (enable2.Checked == true)
@@ -94,8 +101,15 @@ namespace WindowsFormsApp1
 				int timeleft = Int32.Parse(time2.Text);
 				timeleft--;
 				time2.Text = timeleft.ToString();
-				if (timeleft <= mindingtime) time2.BackColor = Color.Red;
-				if (timeleft == 0) enable2.Checked = false;
+				if (timeleft == 0)
+				{
+					enable2.Checked = false;
+					time2.BackColor = Color.Red;
+				}
+				else if (timeleft <= mindingtime && timeleft > 0)
+				{
+					time2.BackColor = Color.Yellow;
+				}
 
 			}
 			if (enable3.Checked == true)
@@ -103,8 +117,15 @@ namespace WindowsFormsApp1
 				int timeleft = Int32.Parse(time3.Text);
 				timeleft--;
 				time3.Text = timeleft.ToString();
-				if (timeleft <= mindingtime) time3.BackColor = Color.Red;
-				if (timeleft == 0) enable3.Checked = false;
+				if (timeleft == 0)
+				{
+					enable3.Checked = false;
+					time3.BackColor = Color.Red;
+				}
+				else if (timeleft <= mindingtime && timeleft > 0)
+				{
+					time3.BackColor = Color.Yellow;
+				}
 
 			}
 			if (enable4.Checked == true)
@@ -112,26 +133,45 @@ namespace WindowsFormsApp1
 				int timeleft = Int32.Parse(time4.Text);
 				timeleft--;
 				time4.Text = timeleft.ToString();
-				if (timeleft <= mindingtime) time4.BackColor = Color.Red;
-				if (timeleft == 0) enable4.Checked = false;
+				if (timeleft == 0)
+				{
+					enable4.Checked = false;
+					time4.BackColor = Color.Red;
+				}
+				else if (timeleft <= mindingtime && timeleft > 0)
+				{
+					time4.BackColor = Color.Yellow;
+				}
 
 			}
 			if (enable5.Checked == true)
 			{
 				int timeleft = Int32.Parse(time5.Text);
 				timeleft--;
-				time5.Text = timeleft.ToString();
-				if (timeleft <= mindingtime) time5.BackColor = Color.Red;
-				if (timeleft == 0) enable5.Checked = false;
+				time5.Text = timeleft.ToString(); if (timeleft == 0)
+				{
+					enable5.Checked = false;
+					time5.BackColor = Color.Red;
+				}
+				else if (timeleft <= mindingtime && timeleft > 0)
+				{
+					time5.BackColor = Color.Yellow;
+				}
 
 			}
 			if (enable6.Checked == true)
 			{
 				int timeleft = Int32.Parse(time6.Text);
 				timeleft--;
-				time6.Text = timeleft.ToString();
-				if (timeleft <= mindingtime) time6.BackColor = Color.Red;
-				if (timeleft == 0) enable6.Checked = false;
+				time6.Text = timeleft.ToString(); if (timeleft == 0)
+				{
+					enable6.Checked = false;
+					time6.BackColor = Color.Red;
+				}
+				else if (timeleft <= mindingtime && timeleft > 0)
+				{
+					time6.BackColor = Color.Yellow;
+				}
 
 			}
 			if (enable7.Checked == true)
@@ -139,8 +179,15 @@ namespace WindowsFormsApp1
 				int timeleft = Int32.Parse(time7.Text);
 				timeleft--;
 				time7.Text = timeleft.ToString();
-				if (timeleft <= mindingtime) time7.BackColor = Color.Red;
-				if (timeleft == 0) enable7.Checked = false;
+				if (timeleft == 0)
+				{
+					enable7.Checked = false;
+					time7.BackColor = Color.Red;
+				}
+				else if (timeleft <= mindingtime && timeleft > 0)
+				{
+					time7.BackColor = Color.Yellow;
+				}
 
 			}
 

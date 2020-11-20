@@ -178,6 +178,7 @@ namespace WindowsFormsApp1
             this.textBox3.Name = "textBox3";
             this.textBox3.Size = new System.Drawing.Size(148, 21);
             this.textBox3.TabIndex = 9;
+            this.textBox3.Text = "谭东海";
             // 
             // enable2
             // 
@@ -214,6 +215,7 @@ namespace WindowsFormsApp1
             this.textBox4.Name = "textBox4";
             this.textBox4.Size = new System.Drawing.Size(148, 21);
             this.textBox4.TabIndex = 13;
+            this.textBox4.Text = "薛总";
             // 
             // enable3
             // 
@@ -250,6 +252,7 @@ namespace WindowsFormsApp1
             this.textBox5.Name = "textBox5";
             this.textBox5.Size = new System.Drawing.Size(148, 21);
             this.textBox5.TabIndex = 17;
+            this.textBox5.Text = "张云泽";
             // 
             // enable4
             // 
@@ -286,6 +289,7 @@ namespace WindowsFormsApp1
             this.textBox6.Name = "textBox6";
             this.textBox6.Size = new System.Drawing.Size(148, 21);
             this.textBox6.TabIndex = 21;
+            this.textBox6.Text = "张正全";
             // 
             // enable5
             // 
@@ -400,7 +404,7 @@ namespace WindowsFormsApp1
             this.mindtime.Name = "mindtime";
             this.mindtime.Size = new System.Drawing.Size(28, 21);
             this.mindtime.TabIndex = 35;
-            this.mindtime.Text = "0";
+            this.mindtime.Text = "200";
             // 
             // button1
             // 
