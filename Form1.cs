@@ -25,6 +25,15 @@ namespace WindowsFormsApp1
 		{
 			time.Text = alltime;
 			time.BackColor = Color.Transparent;
+			progressBar1.Maximum = int.Parse(alltime);
+			progressBar2.Maximum = int.Parse(alltime);
+			progressBar3.Maximum = int.Parse(alltime);
+			progressBar4.Maximum = int.Parse(alltime);
+			progressBar5.Maximum = int.Parse(alltime);
+			progressBar6.Maximum = int.Parse(alltime);
+			progressBar7.Maximum = int.Parse(alltime);
+			progressBar8.Maximum = int.Parse(alltime);
+
 		}
 		private void re1_Click(object sender, EventArgs e)
 		{
@@ -69,6 +78,10 @@ namespace WindowsFormsApp1
 			{
 				int timeleft = Int32.Parse(time.Text);
 				timeleft--;
+				if (timeleft >= 0)
+				{
+					progressBar1.Value = int.Parse(alltime) - timeleft;
+				}
 				time.Text = timeleft.ToString();
 				if (timeleft == 0)
 				{
@@ -84,6 +97,10 @@ namespace WindowsFormsApp1
 			{
 				int timeleft = Int32.Parse(time1.Text);
 				timeleft--;
+				if (timeleft >= 0)
+				{
+					progressBar2.Value = int.Parse(alltime) - timeleft;
+				}
 				time1.Text = timeleft.ToString();
 				if (timeleft == 0)
 				{
@@ -101,6 +118,10 @@ namespace WindowsFormsApp1
 				int timeleft = Int32.Parse(time2.Text);
 				timeleft--;
 				time2.Text = timeleft.ToString();
+				if (timeleft >= 0)
+				{
+					progressBar3.Value = int.Parse(alltime) - timeleft;
+				}
 				if (timeleft == 0)
 				{
 					enable2.Checked = false;
@@ -117,6 +138,10 @@ namespace WindowsFormsApp1
 				int timeleft = Int32.Parse(time3.Text);
 				timeleft--;
 				time3.Text = timeleft.ToString();
+				if (timeleft >= 0)
+				{
+					progressBar4.Value = int.Parse(alltime) - timeleft;
+				}
 				if (timeleft == 0)
 				{
 					enable3.Checked = false;
@@ -133,6 +158,10 @@ namespace WindowsFormsApp1
 				int timeleft = Int32.Parse(time4.Text);
 				timeleft--;
 				time4.Text = timeleft.ToString();
+				if (timeleft >= 0)
+				{
+					progressBar5.Value = int.Parse(alltime) - timeleft;
+				}
 				if (timeleft == 0)
 				{
 					enable4.Checked = false;
@@ -148,7 +177,12 @@ namespace WindowsFormsApp1
 			{
 				int timeleft = Int32.Parse(time5.Text);
 				timeleft--;
-				time5.Text = timeleft.ToString(); if (timeleft == 0)
+				time5.Text = timeleft.ToString();
+				if (timeleft >= 0)
+				{
+					progressBar6.Value = int.Parse(alltime) - timeleft;
+				}
+				if (timeleft == 0)
 				{
 					enable5.Checked = false;
 					time5.BackColor = Color.Red;
@@ -163,7 +197,12 @@ namespace WindowsFormsApp1
 			{
 				int timeleft = Int32.Parse(time6.Text);
 				timeleft--;
-				time6.Text = timeleft.ToString(); if (timeleft == 0)
+				time6.Text = timeleft.ToString();
+				if (timeleft >= 0)
+				{
+					progressBar7.Value = int.Parse(alltime) - timeleft;
+				}
+				if (timeleft == 0)
 				{
 					enable6.Checked = false;
 					time6.BackColor = Color.Red;
@@ -179,6 +218,10 @@ namespace WindowsFormsApp1
 				int timeleft = Int32.Parse(time7.Text);
 				timeleft--;
 				time7.Text = timeleft.ToString();
+				if (timeleft >= 0)
+				{
+					progressBar8.Value = int.Parse(alltime) - timeleft;
+				}
 				if (timeleft == 0)
 				{
 					enable7.Checked = false;
@@ -211,6 +254,7 @@ namespace WindowsFormsApp1
 
 		private void resetall_Click(object sender, EventArgs e)
 		{
+			button1_Click(sender, e);
 			re_Click(sender, e);
 			re1_Click(sender, e);
 			re2_Click(sender, e);

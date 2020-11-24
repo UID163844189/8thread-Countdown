@@ -42,14 +42,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="8Thread-Countdown.exe" size="16792">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="8Thread-Countdown.exe" size="19352">
       <assemblyIdentity name="8Thread-Countdown" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>vhpYxOEpQG7F+aOIxppREoLUGJvEkhfE79B6KBwMQs4=</dsig:DigestValue>
+        <dsig:DigestValue>wp+ExAq6PE72up0h571aq/IQulXJZ9YfWSPzOhBeZTs=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>

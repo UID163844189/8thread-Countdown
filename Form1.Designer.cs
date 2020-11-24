@@ -69,6 +69,14 @@ namespace WindowsFormsApp1
             this.mindtime = new System.Windows.Forms.TextBox();
             this.button1 = new System.Windows.Forms.Button();
             this.resetall = new System.Windows.Forms.Button();
+            this.progressBar1 = new System.Windows.Forms.ProgressBar();
+            this.progressBar2 = new System.Windows.Forms.ProgressBar();
+            this.progressBar3 = new System.Windows.Forms.ProgressBar();
+            this.progressBar4 = new System.Windows.Forms.ProgressBar();
+            this.progressBar5 = new System.Windows.Forms.ProgressBar();
+            this.progressBar6 = new System.Windows.Forms.ProgressBar();
+            this.progressBar7 = new System.Windows.Forms.ProgressBar();
+            this.progressBar8 = new System.Windows.Forms.ProgressBar();
             this.SuspendLayout();
             // 
             // timer1
@@ -99,7 +107,7 @@ namespace WindowsFormsApp1
             this.time.AutoSize = true;
             this.time.BackColor = System.Drawing.Color.Transparent;
             this.time.Font = new System.Drawing.Font("宋体", 36F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.time.Location = new System.Drawing.Point(208, 9);
+            this.time.Location = new System.Drawing.Point(322, 9);
             this.time.Name = "time";
             this.time.Size = new System.Drawing.Size(92, 48);
             this.time.TabIndex = 2;
@@ -107,7 +115,7 @@ namespace WindowsFormsApp1
             // 
             // re
             // 
-            this.re.Location = new System.Drawing.Point(306, 22);
+            this.re.Location = new System.Drawing.Point(420, 22);
             this.re.Name = "re";
             this.re.Size = new System.Drawing.Size(75, 23);
             this.re.TabIndex = 3;
@@ -117,7 +125,7 @@ namespace WindowsFormsApp1
             // 
             // re1
             // 
-            this.re1.Location = new System.Drawing.Point(306, 70);
+            this.re1.Location = new System.Drawing.Point(420, 71);
             this.re1.Name = "re1";
             this.re1.Size = new System.Drawing.Size(75, 23);
             this.re1.TabIndex = 7;
@@ -129,7 +137,7 @@ namespace WindowsFormsApp1
             // 
             this.time1.AutoSize = true;
             this.time1.Font = new System.Drawing.Font("宋体", 36F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.time1.Location = new System.Drawing.Point(208, 57);
+            this.time1.Location = new System.Drawing.Point(322, 58);
             this.time1.Name = "time1";
             this.time1.Size = new System.Drawing.Size(92, 48);
             this.time1.TabIndex = 6;
@@ -154,7 +162,7 @@ namespace WindowsFormsApp1
             // 
             // re2
             // 
-            this.re2.Location = new System.Drawing.Point(306, 118);
+            this.re2.Location = new System.Drawing.Point(420, 119);
             this.re2.Name = "re2";
             this.re2.Size = new System.Drawing.Size(75, 23);
             this.re2.TabIndex = 11;
@@ -166,7 +174,7 @@ namespace WindowsFormsApp1
             // 
             this.time2.AutoSize = true;
             this.time2.Font = new System.Drawing.Font("宋体", 36F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.time2.Location = new System.Drawing.Point(208, 105);
+            this.time2.Location = new System.Drawing.Point(322, 106);
             this.time2.Name = "time2";
             this.time2.Size = new System.Drawing.Size(92, 48);
             this.time2.TabIndex = 10;
@@ -191,7 +199,7 @@ namespace WindowsFormsApp1
             // 
             // re3
             // 
-            this.re3.Location = new System.Drawing.Point(306, 166);
+            this.re3.Location = new System.Drawing.Point(420, 167);
             this.re3.Name = "re3";
             this.re3.Size = new System.Drawing.Size(75, 23);
             this.re3.TabIndex = 15;
@@ -203,7 +211,7 @@ namespace WindowsFormsApp1
             // 
             this.time3.AutoSize = true;
             this.time3.Font = new System.Drawing.Font("宋体", 36F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.time3.Location = new System.Drawing.Point(208, 153);
+            this.time3.Location = new System.Drawing.Point(322, 154);
             this.time3.Name = "time3";
             this.time3.Size = new System.Drawing.Size(92, 48);
             this.time3.TabIndex = 14;
@@ -228,7 +236,7 @@ namespace WindowsFormsApp1
             // 
             // re4
             // 
-            this.re4.Location = new System.Drawing.Point(306, 214);
+            this.re4.Location = new System.Drawing.Point(420, 215);
             this.re4.Name = "re4";
             this.re4.Size = new System.Drawing.Size(75, 23);
             this.re4.TabIndex = 19;
@@ -240,7 +248,7 @@ namespace WindowsFormsApp1
             // 
             this.time4.AutoSize = true;
             this.time4.Font = new System.Drawing.Font("宋体", 36F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.time4.Location = new System.Drawing.Point(208, 201);
+            this.time4.Location = new System.Drawing.Point(322, 202);
             this.time4.Name = "time4";
             this.time4.Size = new System.Drawing.Size(92, 48);
             this.time4.TabIndex = 18;
@@ -265,7 +273,7 @@ namespace WindowsFormsApp1
             // 
             // re5
             // 
-            this.re5.Location = new System.Drawing.Point(306, 262);
+            this.re5.Location = new System.Drawing.Point(420, 263);
             this.re5.Name = "re5";
             this.re5.Size = new System.Drawing.Size(75, 23);
             this.re5.TabIndex = 23;
@@ -277,7 +285,7 @@ namespace WindowsFormsApp1
             // 
             this.time5.AutoSize = true;
             this.time5.Font = new System.Drawing.Font("宋体", 36F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.time5.Location = new System.Drawing.Point(208, 249);
+            this.time5.Location = new System.Drawing.Point(322, 250);
             this.time5.Name = "time5";
             this.time5.Size = new System.Drawing.Size(92, 48);
             this.time5.TabIndex = 22;
@@ -302,7 +310,7 @@ namespace WindowsFormsApp1
             // 
             // re6
             // 
-            this.re6.Location = new System.Drawing.Point(306, 310);
+            this.re6.Location = new System.Drawing.Point(420, 311);
             this.re6.Name = "re6";
             this.re6.Size = new System.Drawing.Size(75, 23);
             this.re6.TabIndex = 27;
@@ -314,7 +322,7 @@ namespace WindowsFormsApp1
             // 
             this.time6.AutoSize = true;
             this.time6.Font = new System.Drawing.Font("宋体", 36F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.time6.Location = new System.Drawing.Point(208, 297);
+            this.time6.Location = new System.Drawing.Point(322, 298);
             this.time6.Name = "time6";
             this.time6.Size = new System.Drawing.Size(92, 48);
             this.time6.TabIndex = 26;
@@ -338,7 +346,7 @@ namespace WindowsFormsApp1
             // 
             // re7
             // 
-            this.re7.Location = new System.Drawing.Point(306, 358);
+            this.re7.Location = new System.Drawing.Point(420, 359);
             this.re7.Name = "re7";
             this.re7.Size = new System.Drawing.Size(75, 23);
             this.re7.TabIndex = 31;
@@ -350,7 +358,7 @@ namespace WindowsFormsApp1
             // 
             this.time7.AutoSize = true;
             this.time7.Font = new System.Drawing.Font("宋体", 36F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.time7.Location = new System.Drawing.Point(208, 345);
+            this.time7.Location = new System.Drawing.Point(322, 346);
             this.time7.Name = "time7";
             this.time7.Size = new System.Drawing.Size(92, 48);
             this.time7.TabIndex = 30;
@@ -408,7 +416,7 @@ namespace WindowsFormsApp1
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(306, 424);
+            this.button1.Location = new System.Drawing.Point(420, 424);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(75, 23);
             this.button1.TabIndex = 36;
@@ -418,7 +426,7 @@ namespace WindowsFormsApp1
             // 
             // resetall
             // 
-            this.resetall.Location = new System.Drawing.Point(306, 392);
+            this.resetall.Location = new System.Drawing.Point(420, 392);
             this.resetall.Name = "resetall";
             this.resetall.Size = new System.Drawing.Size(75, 23);
             this.resetall.TabIndex = 37;
@@ -426,11 +434,75 @@ namespace WindowsFormsApp1
             this.resetall.UseVisualStyleBackColor = true;
             this.resetall.Click += new System.EventHandler(this.resetall_Click);
             // 
+            // progressBar1
+            // 
+            this.progressBar1.Location = new System.Drawing.Point(216, 22);
+            this.progressBar1.Name = "progressBar1";
+            this.progressBar1.Size = new System.Drawing.Size(100, 23);
+            this.progressBar1.TabIndex = 38;
+            // 
+            // progressBar2
+            // 
+            this.progressBar2.Location = new System.Drawing.Point(216, 71);
+            this.progressBar2.Name = "progressBar2";
+            this.progressBar2.Size = new System.Drawing.Size(100, 23);
+            this.progressBar2.TabIndex = 39;
+            // 
+            // progressBar3
+            // 
+            this.progressBar3.Location = new System.Drawing.Point(216, 119);
+            this.progressBar3.Name = "progressBar3";
+            this.progressBar3.Size = new System.Drawing.Size(100, 23);
+            this.progressBar3.TabIndex = 40;
+            // 
+            // progressBar4
+            // 
+            this.progressBar4.Location = new System.Drawing.Point(216, 167);
+            this.progressBar4.Name = "progressBar4";
+            this.progressBar4.Size = new System.Drawing.Size(100, 23);
+            this.progressBar4.TabIndex = 41;
+            // 
+            // progressBar5
+            // 
+            this.progressBar5.Location = new System.Drawing.Point(216, 215);
+            this.progressBar5.Name = "progressBar5";
+            this.progressBar5.Size = new System.Drawing.Size(100, 23);
+            this.progressBar5.TabIndex = 42;
+            // 
+            // progressBar6
+            // 
+            this.progressBar6.Location = new System.Drawing.Point(216, 263);
+            this.progressBar6.Name = "progressBar6";
+            this.progressBar6.Size = new System.Drawing.Size(100, 23);
+            this.progressBar6.TabIndex = 43;
+            // 
+            // progressBar7
+            // 
+            this.progressBar7.Location = new System.Drawing.Point(216, 311);
+            this.progressBar7.Name = "progressBar7";
+            this.progressBar7.Size = new System.Drawing.Size(100, 23);
+            this.progressBar7.TabIndex = 44;
+            // 
+            // progressBar8
+            // 
+            this.progressBar8.Location = new System.Drawing.Point(216, 359);
+            this.progressBar8.Name = "progressBar8";
+            this.progressBar8.Size = new System.Drawing.Size(100, 23);
+            this.progressBar8.TabIndex = 45;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.progressBar8);
+            this.Controls.Add(this.progressBar7);
+            this.Controls.Add(this.progressBar6);
+            this.Controls.Add(this.progressBar5);
+            this.Controls.Add(this.progressBar4);
+            this.Controls.Add(this.progressBar3);
+            this.Controls.Add(this.progressBar2);
+            this.Controls.Add(this.progressBar1);
             this.Controls.Add(this.resetall);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.mindtime);
@@ -517,6 +589,14 @@ namespace WindowsFormsApp1
         private System.Windows.Forms.TextBox mindtime;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button resetall;
+        private System.Windows.Forms.ProgressBar progressBar1;
+        private System.Windows.Forms.ProgressBar progressBar2;
+        private System.Windows.Forms.ProgressBar progressBar3;
+        private System.Windows.Forms.ProgressBar progressBar4;
+        private System.Windows.Forms.ProgressBar progressBar5;
+        private System.Windows.Forms.ProgressBar progressBar6;
+        private System.Windows.Forms.ProgressBar progressBar7;
+        private System.Windows.Forms.ProgressBar progressBar8;
     }
 }
 
